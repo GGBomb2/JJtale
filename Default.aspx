@@ -1,13 +1,12 @@
-﻿<!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<!DOCTYPE html>
+
 <html lang="en">
 <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
 		<title>JJTale</title>
-		<meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
-		<meta name="author" content="htmlcoder.me">
 
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -91,8 +90,8 @@
 										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 											<ul class="nav navbar-nav navbar-right">
 												<li class="active"><a href="#banner">首页</a></li>
-                                                <li><a href="#contact">登录</a></li>
-                                                <li><a href="#contact">注册</a></li>
+                                                <li><a href="Login.aspx" target="_blank">登录</a></li>
+                                                <li><a href="Login.aspx">注册</a></li>
 												<li><a href="#about">关于</a></li>
 												<li><a href="#services">消息</a></li>
 												<li><a href="#portfolio">观看记录</a></li>
@@ -168,7 +167,7 @@
                                         <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
                                             <ul class="nav navbar-nav navbar-right">
                                                 <li class="active"><a href="#banner">首页</a></li>
-                                                <li><a href="#contact">登录</a></li>
+                                                <li><a href="Login.aspx">登录</a></li>
                                                 <li><a href="#contact">注册</a></li>
                                                 <li><a href="#about">关于</a></li>
                                                 <li><a href="#services">消息</a></li>
