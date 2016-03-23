@@ -139,80 +139,23 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h1 id="about" class="title text-center">最新 <span>Tale</span></h1>
-						<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officia, aspernatur.</p>
+						<h2 class="title text-center"><span>奥菲斯</span></h2>
 						<div class="space"></div>
 						<div class="row">
 							<div class="col-md-6">
-								<img src="images/section-image-1.png" alt="">
+								<img src="images/Orpheus.jpg" alt="">
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci illo, voluptatum ipsam fuga error commodi architecto, laudantium culpa tenetur at id, beatae placeat deserunt iure quas voluptas fugit eveniet.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ducimus explicabo quibusdam temporibus deserunt doloremque pariatur ea, animi a. Delectus similique atque eligendi, enim vel reiciendis deleniti neque aliquid, sit?</p>
-								<ul class="list-unstyled">
-									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Lorem ipsum dolor sit amet</li>
-									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Reiciendis deleniti neque aliquid</li>
-									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Ipsam fuga error commodi</li>
-									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Lorem ipsum dolor sit amet</li>
-									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li>
-								</ul>
+								<p>天琴座的琴，是音乐家奥菲斯携带的那把竖琴。传说当奥菲斯在森林里边弹着竖琴，一边唱歌，山野中的野兽都会听得入迷，就连石头也会变得有软。奥菲斯爱上了泉精尤利黛，两个人接受众神的祝福结了婚，但快乐的生活并未能维持很久。</p>
+								<p>有一天，尤利斯与朋友们散布在草原上，脚突然被一条毒蛇咬到，就这样死去。奥菲斯悲痛欲绝，一心想着要使尤利黛复活，只好不顾一切的带上自己的竖琴前往阴间。</p>
+                                <p>路途坎坷，奥菲斯跨山涉水来到了阴间的大门前，却被阴间的守门犬撒贝洛斯拦住，奥菲斯弹起了竖琴，唱起了悲歌，撒贝洛斯被这悲歌感动，特别让他通过。在阴间的路上，他一路弹着竖琴，唱着悲歌，感动了阴间的冤魂，感动了冷漠的冥河渡船夫，终于来到了冥王普鲁托的面前，恳求冥王让他的妻子回到阳间。</p>
+								<p>冥王冷冷的拒绝了他，可是奥菲斯不死心，用琴声诉说着对尤利斯的爱，歌唱着失去尤利斯的痛，优美的琴声和歌声打动了冥王，冥王被这琴声深深吸引，说：“好吧，我可以放你们回去，但在回到阳间之前绝不能回头，不然你的妻子将会变成石头永远留在这里。”，其实冥王一心想把奥菲斯留在阴间为他弹琴，于是施下了法术。</p>
+                                <p>奥菲斯带着尤利斯一路走出阳间，但阴间的路很长，普鲁托施下了法术，奥菲斯渐渐听不见尤利斯的脚步声，当他看到地上的光亮时, 忍不住回头, 转瞬间, 尤丽黛只发出轻轻的叫声, 就又被拉回了阴间，变成了石头。</p>
+                                <p>可怜的奥菲斯，无法接受妻子再一次离开他身边，于是留在了尤利斯的石头旁边，日夜弹着竖琴，给她演奏</p>
 							</div>
 						</div>
 						<div class="space"></div>
-						<h2>Becessitatibus quae beatae possimus ullam</h2>
-						<div class="row">
-							<div class="col-md-6">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci illo, voluptatum ipsam fuga error commodi architecto, laudantium culpa tenetur at id, beatae placeat deserunt iure quas voluptas fugit eveniet.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ducimus explicabo quibusdam temporibus deserunt doloremque pariatur ea, animi a. Delectus similique atque eligendi, enim vel reiciendis deleniti neque aliquid, sit?</p>
-								<p>Vitae dolores quam magnam accusantium nam, voluptatibus expedita delectus, dolorum odio magni ut nemo nihil ex earum pariatur molestias velit eveniet, facere autem saepe aut. Ut minima itaque porro facere. Cumque vitae autem, dignissimos molestiae necessitatibus culpa aliquam deleniti soluta sunt voluptatibus tenetur, unde dolorem eligendi doloribus quibusdam facere totam. Possimus atque deserunt numquam aliquam magnam, facilis officiis illo alias ipsa voluptas laborum, praesentium eveniet nobis velit voluptatem odio eligendi, corporis et iste distinctio! Repellendus, id, ad.</p>
-							</div>
-							<div class="col-md-6">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="headingOne">
-											<h4 class="panel-title">
-												<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-													Collapsible Group Item #1
-												</a>
-											</h4>
-										</div>
-										<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-											<div class="panel-body">
-												Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher.
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="headingTwo">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-													Collapsible Group Item #2
-												</a>
-											</h4>
-										</div>
-										<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-											<div class="panel-body">
-												Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="headingThree">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-													Collapsible Group Item #3
-												</a>
-											</h4>
-										</div>
-										<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-											<div class="panel-body">
-												Richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic.
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
