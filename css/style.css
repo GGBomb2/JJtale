@@ -138,6 +138,11 @@ blockquote {
 	min-height: 100%;
 	width: 100%;
 }
+.banner2-image{
+    vertical-align: middle;
+	min-height: 100%;
+	width: 100%;
+}
 .banner:after {
 	position: absolute;
 	top: 0;
@@ -153,9 +158,9 @@ blockquote {
 	width: 100%;
 	z-index: 2;
 }
-.banner-caption2 {
+.banner2-caption {
 	position: absolute;
-	top: 20%;
+	top: 30%;
 	width: 100%;
 	z-index: 2;
 }
@@ -296,15 +301,15 @@ blockquote {
 .banner-caption h1 {
 	font-size: 60px;
 }
-.banner-caption2 h1,
-.banner-caption2 h2,
-.banner-caption2 h3,
-.banner-caption2 h4,
-.banner-caption2 h5,
-.banner-caption2 h6 {
+.banner2-caption h1,
+.banner2-caption h2,
+.banner2-caption h3,
+.banner2-caption h4,
+.banner2-caption h5,
+.banner2-caption h6 {
 	color: #ffffff;
 }
-.banner-caption2 h1 {
+.banner2-caption h1 {
 	font-size: 60px;
 }
 .subfooter p {

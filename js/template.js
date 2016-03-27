@@ -11,7 +11,10 @@
 	$(document).ready(function(){
 	
 		$(".banner-image").backstretch('images/banner.jpg');
-		
+		$(".banner2-image").backstretch('images/banner2.jpg');
+		$("#btn_Regist").click(function () {
+		    location.href = "Regist.aspx";
+		});
 		// Fixed header
 		//-----------------------------------------------
 		$(window).scroll(function() {
