@@ -4,6 +4,7 @@
 
 <html >
 <head runat="server">
+    <title>JJTale Regist</title>
     <!-- Favicon -->
 		<link rel="shortcut icon" href="images/favicon.jpg">
 <!-- Bootstrap core CSS -->
@@ -106,7 +107,7 @@
 					<h1 class="title text-center" id="contact">注册</h1>
                             <div class="col-md-3"> </div>
 						<div class="col-sm-6" style="border-style:solid;border-width:1px;border-radius:3px 4px;border-color:darkgrey;">
-							<div class="footer-content" style="margin:5px 0px 30px 0px">
+							<div class="footer-content" style="margin:20px 0px 30px 0px">
 								<form  role="form" method="post" id="footer_form" runat="server" >
                                     <div></div>
 									<div class="form-group has-feedback">
@@ -125,9 +126,14 @@
 										<input type="email" class="form-control" id="email2" placeholder="请输入邮箱" name="email" runat="server" required>
 										<i class="fa fa-envelope form-control-feedback"></i>
 									</div>
+                                    <div class="form-group">
+										<label class="sr-only" for="userInformation">userInformation</label>
+										<TextArea class="form-control" id="userInformation" placeholder="个人签名(可以为空)" name="userInformation" runat="server"/>
+										
+									</div>
                                     <div>
                                        <%-- <asp:Button Text="登录" ID="btn_Login" class="btn btn-default"  OnClick="Btn_LoginOnClicked" runat="server"/>--%>
-                                        <input onclick="" type="button" value="注册" id="btn_Regist" class="btn btn-default" />                             
+                                        <asp:Button onclick="btn_RegistOnClicked" type="button" Text="注册" id="btn_Regist" class="btn btn-default" runat="server"/>                             
                                         <a href="Login.aspx">已有账号？去登录.</a>
                                     </div>
 								</form>

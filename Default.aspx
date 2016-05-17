@@ -90,12 +90,12 @@
 										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 											<ul class="nav navbar-nav navbar-right">
 												<li class="active"><a href="#banner">首页</a></li>
+												<li><a href="#last">最新</a></li>
+												<li><a href="#sort">分类</a></li>
+                                                <li><a href="#clients">Clients</a></li>
+												<li><a href="History.aspx">观看记录</a></li>
                                                 <li><a href="Login.aspx" target="_blank">登录</a></li>
                                                 <li><a href="Regist.aspx">注册</a></li>
-												<li><a href="#about">关于</a></li>
-												<li><a href="#services">消息</a></li>
-												<li><a href="#portfolio">观看记录</a></li>
-												<li><a href="#clients">Clients</a></li>
 											</ul>
 										</div>
 
@@ -138,7 +138,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h1 id="about" class="title text-center">最新 <span>Tale</span></h1>
+						<h1 id="last" class="title text-center">最新 <span>Tale</span></h1>
 						<h2 class="title text-center"><span>奥菲斯</span></h2>
 						<div class="space"></div>
 						<div class="row">
@@ -268,7 +268,7 @@
 		<!-- ================ -->
 		<div class="section">
 			<div class="container">
-				<h1 class="text-center title" id="portfolio">XX 传说</h1>
+				<h1 class="text-center title" id="sort">XX 传说</h1>
 				<div class="separator"></div>
 				<p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p>
 				<br>			
@@ -780,7 +780,7 @@
 
 		<!-- section start -->
 		<!-- ================ -->
-		<div class="default-bg space">
+		<div class="default-bg space" id="clients">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
