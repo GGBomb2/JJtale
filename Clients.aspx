@@ -75,10 +75,7 @@
 										<!-- Collect the nav links, forms, and other content for toggling -->
 										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 											<ul class="nav navbar-nav navbar-right">
-												<li class="active"><a href="Default.aspx">首页</a></li>
-												<li><a href="#about">关于</a></li>
-												<li><a href="#services">消息</a></li>
-												<li><a href="#portfolio">观看记录</a></li>
+												
 												<li><a href="#clients">Clients</a></li>
 											</ul>
 										</div>
@@ -113,6 +110,7 @@
 								<form  role="form" method="post" id="footer_form" runat="server" >
                                     <p><asp:TextBox runat="server" ID="text_search" ForeColor="Black" Width="192px" ></asp:TextBox>
                                         <asp:Button Text="查询记录" ID="btn_search" runat="server" ForeColor="Black" CssClass="btn" OnClick="btn_search_Click"/>
+                                        <asp:Button Text="显示全部记录" ID="btn_showAll" runat="server" ForeColor="Black" CssClass="btn" OnClick="btn_showAll_Click"/>
                                         </p>
                                     <asp:GridView ID="gridview_userInformation" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" PageSize="5" DataSourceID="SqlDataSource1" Width="876px" 
                                                     OnDataBound="gridview_userInformation_DataBound" DataKeyNames="id" CellPadding="4" ForeColor="#333333" GridLines="None" Height="150px" HorizontalAlign="Center">
@@ -121,10 +119,10 @@
                                         <Columns>
                                             <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
                                             <asp:BoundField DataField="id" HeaderText="ID" InsertVisible="False" SortExpression="id" ReadOnly="true" />
-                                            <asp:BoundField DataField="uname" HeaderText="用户名" SortExpression="uname" ReadOnly="true"/>
-                                            <asp:BoundField DataField="passw" HeaderText="密码" SortExpression="passw" ReadOnly="true"/>
-                                            <asp:BoundField DataField="email" HeaderText="Email" SortExpression="email" ReadOnly="true"/>
-                                            <asp:BoundField DataField="userInformation" HeaderText="用户信息" SortExpression="userInformation" ReadOnly="true"/>
+                                            <asp:BoundField DataField="uname" HeaderText="用户名" SortExpression="uname" />
+                                            <asp:BoundField DataField="passw" HeaderText="密码" SortExpression="passw" />
+                                            <asp:BoundField DataField="email" HeaderText="Email" SortExpression="email" />
+                                            <asp:BoundField DataField="userInformation" HeaderText="用户信息" SortExpression="userInformation" />
                                         </Columns>
 
 

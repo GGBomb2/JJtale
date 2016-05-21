@@ -125,6 +125,17 @@
 						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
 							<h1 class="text-center">你好，我是 <span>JJBomb</span></h1>
 							<p class="lead text-center">这是一个传说中充满了传说的网站。</p>
+                                <div class="filters2 text-center">
+											<ul class="text-center nav nav-pills">
+												<li><a href="example/Chap2/Default.aspx" style="background-color:black">Chap2</a></li>
+												<li><a href="example/Chap3/Exception.aspx"style="background-color:black">Chap3</a></li>
+												<li><a href="example/Chap4/IsPostBack.aspx"style="background-color:black">Chap4</a></li>
+                                                <li><a href="example/Chap5/Regular.aspx"style="background-color:black">Chap5</a></li>
+												<li><a href="example/Chap6/Server.aspx"style="background-color:black">Chap6</a></li>
+                                                <li><a href="example/Chap7/LinqDSGrid.aspx" style="background-color:black">Chap7</a></li>
+                                                <li><a href="example/Chap8/GridBound.aspx"style="background-color:black">Chap8</a></li>
+											</ul>
+                                </div>
 						</div>
 					</div>
 				</div>
@@ -276,7 +287,7 @@
 					<div class="col-md-12">
 
 						<!-- isotope filters start -->
-						<div class="filters text-center">
+						<div class="text-center">
 							<ul class="nav nav-pills">
 								<li class="active"><a href="#" data-filter="*">All</a></li>
 								<li><a href="#" data-filter=".web-design">Balabala1</a></li>

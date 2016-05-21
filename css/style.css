@@ -645,7 +645,25 @@ textarea {
 .social-links li.pinterest a:hover {
 	color: #cb2027;
 }
-
+/*my Items
+    ----------------------------*/
+.filters2 {
+	margin: 0 0 30px 0;
+}
+.filters2 .nav-pills > li {
+	margin-right: 2px;
+	margin-bottom: 2px;
+}
+.filters2 .nav-pills > li + li {
+	margin-left: 0px;
+}
+.text-center.filters2 .nav-pills > li {
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	display: inline-block;
+	float: none;
+}
 /* Isotope Items
 ---------------------------------- */
 .filters {
