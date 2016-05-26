@@ -49,7 +49,7 @@ public partial class Regist : SubmitOncePage
             }
             catch (MySqlException err)
             {
-                Response.Write("<script>alert('" + err.Message.ToString() + "')</script>");
+                Response.Write("<script>alert(\"" + err.Message.ToString() + "\")</script>");
                 if (conn != null)
                 {
                     conn.Close();

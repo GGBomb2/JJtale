@@ -28,7 +28,7 @@ public partial class Default2 : SubmitOncePage
                 conn = new MySqlConnection(m_connStr);
                 conn.Open();
                 DataSet ds = new DataSet();
-                string strSQL = "select * from user where uname='" + username + "' and passw='" + passwd + "';";
+                string strSQL = "select * from tales where uname='" + username + "' and passw='" + passwd + "';";
                 MySqlDataAdapter sql = new MySqlDataAdapter(strSQL, conn);
                 sql.Fill(ds);
                 if (ds.Tables[0].Rows.Count > 0)
@@ -37,13 +37,14 @@ public partial class Default2 : SubmitOncePage
                 }
                 else
                 {
+                   
                     Response.Write("<script>alert('用户名或密码错误!')</script>");
                     //Response.Redirect("Login.aspx");
                 }
             }
             catch (MySqlException err)
             {
-                Response.Write("<script>alert('" + err.Message.ToString() + "')</script>");
+                Response.Write("<script>alert(\"" + err.Message.ToString() + "\")</script>");
                 if (conn != null)
                 {
                     conn.Close();

@@ -92,10 +92,10 @@
 												<li class="active"><a href="#banner">首页</a></li>
 												<li><a href="#last">最新</a></li>
 												<li><a href="#sort">分类</a></li>
-                                                <li><a href="#clients">Clients</a></li>
-												<li><a href="History.aspx">观看记录</a></li>
+												<li><a href="Search.aspx">搜索</a></li>
                                                 <li><a href="Login.aspx" target="_blank">登录</a></li>
                                                 <li><a href="Regist.aspx">注册</a></li>
+                                                <li><a href="FeedBack.aspx" target="_blank">反馈</a></li>
 											</ul>
 										</div>
 
@@ -125,17 +125,6 @@
 						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
 							<h1 class="text-center">你好，我是 <span>JJBomb</span></h1>
 							<p class="lead text-center">这是一个传说中充满了传说的网站。</p>
-                                <div class="filters2 text-center">
-											<ul class="text-center nav nav-pills">
-												<li><a href="example/Chap2/Default.aspx" style="background-color:black">Chap2</a></li>
-												<li><a href="example/Chap3/Exception.aspx"style="background-color:black">Chap3</a></li>
-												<li><a href="example/Chap4/IsPostBack.aspx"style="background-color:black">Chap4</a></li>
-                                                <li><a href="example/Chap5/Regular.aspx"style="background-color:black">Chap5</a></li>
-												<li><a href="example/Chap6/Server.aspx"style="background-color:black">Chap6</a></li>
-                                                <li><a href="example/Chap7/LinqDSGrid.aspx" style="background-color:black">Chap7</a></li>
-                                                <li><a href="example/Chap8/GridBound.aspx"style="background-color:black">Chap8</a></li>
-											</ul>
-                                </div>
 						</div>
 					</div>
 				</div>
@@ -150,14 +139,14 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h1 id="last" class="title text-center">最新 <span>Tale</span></h1>
-						<h2 class="title text-center"><span>奥菲斯</span></h2>
+						<h2 class="title text-center"><span  id="Last_Tale" runat="server">奥菲斯</span></h2>
 						<div class="space"></div>
 						<div class="row">
 							<div class="col-md-6">
-								<img src="images/Orpheus.jpg" alt="">
+								<img src="images/Orpheus.jpg" alt="" id="Last_Image" runat="server"/>
 								<div class="space"></div>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6" id="Last_Text" runat="server">
 								<p>天琴座的琴，是音乐家奥菲斯携带的那把竖琴。传说当奥菲斯在森林里边弹着竖琴，一边唱歌，山野中的野兽都会听得入迷，就连石头也会变得有软。奥菲斯爱上了泉精尤利黛，两个人接受众神的祝福结了婚，但快乐的生活并未能维持很久。</p>
 								<p>有一天，尤利斯与朋友们散布在草原上，脚突然被一条毒蛇咬到，就这样死去。奥菲斯悲痛欲绝，一心想着要使尤利黛复活，只好不顾一切的带上自己的竖琴前往阴间。</p>
                                 <p>路途坎坷，奥菲斯跨山涉水来到了阴间的大门前，却被阴间的守门犬撒贝洛斯拦住，奥菲斯弹起了竖琴，唱起了悲歌，撒贝洛斯被这悲歌感动，特别让他通过。在阴间的路上，他一路弹着竖琴，唱着悲歌，感动了阴间的冤魂，感动了冷漠的冥河渡船夫，终于来到了冥王普鲁托的面前，恳求冥王让他的妻子回到阳间。</p>
@@ -268,7 +257,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
-						<h1 class="text-center">Let's Work Together!</h1>
+						<h1 class="text-center">Do  you like it? </h1>
 					</div>
 				</div>
 			</div>
@@ -287,7 +276,7 @@
 					<div class="col-md-12">
 
 						<!-- isotope filters start -->
-						<div class="text-center">
+						<div class="filters text-center">
 							<ul class="nav nav-pills">
 								<li class="active"><a href="#" data-filter="*">All</a></li>
 								<li><a href="#" data-filter=".web-design">Balabala1</a></li>
@@ -303,12 +292,12 @@
 								<div class="image-box">
 									<div class="overlay-container">
 										<img src="images/portfolio-1.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#project-1">
+										<a class="overlay" data-toggle="modal" data-target="#project-1" >
 											<i class="fa fa-search-plus"></i>
 											<span>Web Design</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Project Title</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1" >Project Title</a>
 								</div>
 								<!-- Modal -->
 								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
